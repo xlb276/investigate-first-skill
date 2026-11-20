@@ -35,7 +35,7 @@
 git clone https://github.com/xlb276/investigate-first-skill ~/.agents/skills/investigate-first
 ```
 
-放不进去时按 SKILL.md 里"通用性说明"与"专属段"处理。
+放不进去时按 SKILL.md 里"通用性说明"与"示例段"处理。
 
 ## 目录
 
@@ -49,6 +49,8 @@ investigate-first/
 ## 配套 skill
 
 - [search-planner](https://github.com/xlb276/search-planner-skill)：本 skill 强制档的搜索引擎（拆分 → 搜索 → 总结）
+
+**建议两个 skill 一起装**；只装本 skill 也能独立用——按 SKILL.md S3 的降级路径手工照 search-planner 的管线跑（拆分 → 搜索 → 总结），并在侦察结论里注明"无 search-planner，手工降级"。
 
 ## 许可
 
